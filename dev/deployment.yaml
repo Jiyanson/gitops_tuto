@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+oapiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myapp
@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: myapp
-  replicas: 2
+  replicas: 3
   template:
     metadata:
       labels:
